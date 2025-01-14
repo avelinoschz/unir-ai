@@ -9,7 +9,7 @@ def imshow(title = 'imshow image', image = None, size = 10):
     plt.title(title)
     plt.show()
 
-img_dir = './images/car.png'
+img_dir = './notebooks/images/img1.jpg'
 img = cv.imread(img_dir)
 
 plt.imshow(cv.cvtColor(img, cv.COLOR_BGR2RGB))

@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img_dir = './images/car.png'
+img_dir = './notebooks/images/img1.jpg'
 
 img_original = cv.imread(img_dir)
 img_grayscale = cv.imread(img_dir, cv.IMREAD_GRAYSCALE)
